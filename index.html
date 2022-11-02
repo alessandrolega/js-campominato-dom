@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campo Minato DOM</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <!--Container 100vh-->
+    <div class="container100">
+    <!--Header-->
+        <header>
+            <div class="logo-cont">
+                <img src="./assets/img/mobile-logo.png" alt="logo">
+                <h1>Campo Minato</h1>
+            </div>
+            <div class="button-container">
+                <span>Difficoltà</span>
+                <select name="" id="difficult">
+                    <option value="100">Easy</option>
+                    <option value="81">Medium</option>
+                    <option value="49">Hard</option>
+                </select>
+                <button onclick="buttonPlay()" id="buttonPlay" class="btn-play">Play</button>
+            </div>
+        </header>
+    <!--MAIN-->
+        <main>
+            <div id="grid"></div>
+        </main>
+    <!--Footer-->
+        <footer>
+            <h5>Made with <span>&hearts;</span> by <a href="#">Boolean</a></h5>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
