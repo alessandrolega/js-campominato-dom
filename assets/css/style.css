@@ -1,0 +1,76 @@
+header{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+
+main{
+    height: 85vh;
+    background-color: #7FFFD4;
+}
+
+.container100{
+    height: 100vh;
+}
+
+.logo-cont > img{
+    width: 90px;
+    vertical-align: middle;
+}
+
+.logo-cont > h1{
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.btn-play{
+    border-radius: 10px;
+    padding: 0 20px
+}
+
+#grid {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 40%;
+    margin: auto;
+}
+
+.square {
+    border: 1px solid black;
+    width: calc(100% / 10);
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.squareNormal {
+    border: 1px solid black;
+    width: calc(100% / 9);
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.squareHard {
+    border: 1px solid black;
+    width: calc(100% / 7);
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.active {
+    background-color: orange;
+}
+footer{
+    padding: 5px;
+    height: 5vh;
+}
