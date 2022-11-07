@@ -27,6 +27,23 @@ function buttonPlay () {
     }
         console.log( createBox() );
 
+        let arrayBomb = []; 
+        
+        for (let x = 1; x <= 16; x++) { 
+
+            let numberRandom = Math.floor(Math.random(1) * chooseDifficult); 
+            if (arrayBomb.includes(numberRandom) == true) { 
+
+                x = x - 1;
+
+            } else if (numberRandom > chooseDifficult == false) { 
+
+                 arrayBomb.push(numberRandom);
+
+                } 
+        }
+        console.log(arrayBomb);
+
         for ( let i = 0; i < chooseDifficult; i++ ) { 
 
             let elementCurrent = createBox(); 
